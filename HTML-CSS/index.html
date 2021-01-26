@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Home Web</title>
   </head>
 
@@ -12,7 +15,7 @@
       <h2>Subtitle of my Hab website</h2>
       <nav>
         <ul>
-          <li>Home</li>
+          <li><a href="./index.html" class="pag-activa">Home</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -20,56 +23,61 @@
 
     <main>
       <section>
-        <ul id="favoitos">
-          <li id="comida">Pizza</li>
+        <h2>Favoritos</h2>
+        <ul id="favoritos">
+          <li id="comida" class="eat">Pizza</li>
           <li id="canciones">Canciones</li>
-          <li id="canciones">Películas</li>
+          <li id="peliculas">Películas</li>
           <li id="animales">Animales</li>
         </ul>
       </section>
 
       <section>
-         <table border="1">
-        <caption>Horario semanal</caption>
-        <thead>
-            <tr>
-                <th>Horas</th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>9:00</td>
-                <td>Matemáticas</td>
-                <td>Lengua</td>
-                <td>Física</td>
-                <td>Química</td>
-                <td>Biología</td>
-            </tr>
-            <tr>
-                <td>10:00</td>
-                <td>Física</td>
-                <td>Lengua</td>
-                <td>Biología</td>
-                <td>Química</td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-                <td>Física</td>
-                <td>Lengua</td>
-                <td>Biología</td>
-                <td>Química</td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-                <td colspan="5">descanso</td>
-            </tr>
-        </tbody>
+        <h2>Horaio</h2>
+         <table>
+          <caption>Horario semanal</caption>
+            <thead>
+                <tr>
+                    <th>Horas</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="hora">9:00</td>
+                    <td>Matemáticas</td>
+                    <td>Lengua</td>
+                    <td>Física</td>
+                    <td>Química</td>
+                    <td>Biología</td>
+                </tr>
+                <tr>
+                    <td class="hora">10:00</td>
+                    <td>Física</td>
+                    <td>Biologia</td>
+                    <td>Biología</td>
+                    <td>Matemáticas</td>
+                    <td>Lengua</td>
+                </tr>
+                <tr>
+                    <td class="hora">11:00</td>
+                    <td>Física</td>
+                    <td>Lengua</td>
+                    <td>Matemáticas</td>
+                    <td>Física</td>
+                    <td>Química</td>
+                </tr>
+                <tr>
+                    <td class="hora">11:00</td>
+                    <td colspan="5">descanso</td>
+                </tr>
+            </tbody>
       </section>
+
       <section>
         <video src="rabbit320.webm" controls>
           <p>
@@ -93,14 +101,14 @@
         <p>
           <span>Social media:</span>
           <a href="https://www.facebook.com/"
-            ><img
-              src="http://assets.stickpng.com/images/58e91965eb97430e819064f5.png"
+            ><img id="facebook"
+              src="https://www.flaticon.com/svg/vstatic/svg/145/145802.svg?token=exp=1611649228~hmac=1492176d9826db14c4b309f2ef1fd336"
               alt="facebook"
               width="64px"
           /></a>
-          <a href="https://www.facebook.com/"
-            ><img
-              src="http://assets.stickpng.com/images/5a2fe3efcc45e43754640848.png"
+          <a href="https://www.twitter.com/"
+            ><img id="twitter"
+              src="https://www.flaticon.com/svg/vstatic/svg/145/145812.svg?token=exp=1611649579~hmac=f93065d139568a8ec0a6a083ee272ea4"
               alt="twitter"
               width="64px"
           /></a>

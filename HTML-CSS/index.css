@@ -1,0 +1,118 @@
+body {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+aside img {
+  border-radius: 60px;
+}
+
+footer a {
+  font-size: 0.8em;
+  color: white;
+}
+footer a:visited {
+  color: lightgray;
+}
+
+footer li {
+  list-style: none;
+}
+footer {
+  padding: 10px;
+  background-color: slategray;
+}
+
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-family: Arial;
+  font-size: 11px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
+}
+
+nav ul li a.pag-activa {
+  pointer-events: none;
+  cursor: default;
+  background-color: yellowgreen;
+}
+
+ul#favoritos li {
+  margin: 0;
+  padding: 5px;
+  list-style: circle;
+}
+
+li#comida:hover {
+  list-style-type: '🍔';
+}
+li#canciones:hover {
+  list-style-type: '\1F3B6';
+}
+li#peliculas:hover {
+  list-style-type: '🎬';
+}
+li#animales:hover {
+  list-style-type: '🐠';
+}
+
+table {
+  border-collapse: separate;
+  text-align: center;
+  border: solid black 1px;
+}
+
+th {
+  background-color: blue;
+  border: solid black 1px;
+  color: azure;
+  font-weight: 700;
+}
+
+caption {
+  color: rgb(144, 54, 54);
+  background-color: tomato;
+  font-weight: 700;
+}
+
+td {
+  border: solid black 1px;
+  padding: 4px;
+}
+
+td.hora {
+  background-color: green;
+  color: azure;
+  font-weight: 700;
+}
+
+tr:nth-child(even) {
+  background: #cccccc;
+}
+
+input:required {
+  border-color: red;
+}
+
+input[type='submit'] {
+  background-color: #2175bc;
+  border: 0px;
+  padding: 12px;
+  color: #fff;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type='submit']:hover {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
